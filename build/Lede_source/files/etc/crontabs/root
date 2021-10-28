@@ -1,0 +1,2 @@
+0 12 * * 1 lua /usr/share/passwall/rule_update.lua log > /dev/null 2>&1 &
+00 5 * * * sleep 5 && touch /etc/banner && reboot
