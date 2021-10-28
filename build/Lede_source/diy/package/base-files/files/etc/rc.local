@@ -1,0 +1,9 @@
+# Put your custom commands here that should be executed once
+# the system init finished. By default this file does nothing.
+
+0 4 * * * /etc/coremark.sh
+
+iwconfig wlan0 txpower 23
+iwconfig wlan1 txpower 23
+
+exit 0
