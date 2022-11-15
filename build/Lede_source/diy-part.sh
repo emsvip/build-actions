@@ -89,6 +89,8 @@ feeds.buildinfo
 openwrt-x86-64-generic-kernel.bin
 openwrt-x86-64-generic.manifest
 openwrt-x86-64-generic-squashfs-rootfs.img.gz
+Lede-x86-64-generic-squashfs-combined.img.gz
+Lede-x86-64-generic-squashfs-combined-efi.img.gz
 sha256sums
 version.buildinfo
 ipk.tar.gz
